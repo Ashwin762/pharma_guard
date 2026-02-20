@@ -1,0 +1,42 @@
+.env
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+
+# Parent directories - ignore everything from Users
+../
+../../
+../../../
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+NTUSER.DAT*
+AppData/
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+
+# Local files
+package-lock.json
+firebase.json
+battery-report.html
+crash_log.txt
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
